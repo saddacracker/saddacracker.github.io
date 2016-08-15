@@ -1,0 +1,179 @@
+/* Base */
+
+body {
+    background: #201d1e;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1em;
+}
+
+a {
+    color: #009cac;
+}
+    a:hover {
+        color: #103742;
+    }
+
+footer {
+    margin-top: 3em;
+}
+footer ul {
+    border-top: 1px solid #2c292a;
+    padding-top: 1em;
+}
+footer li {
+    display: inline-block;
+    margin-right: 1em;
+    padding-right: 1em;
+    border-right: 1px solid #2c292a;
+}
+    footer li:last-child {
+        border-right: none;
+    }
+footer li a {
+    color: #4e4b4c;
+}
+    footer li a:hover {
+        color: #625e5f;
+    }
+
+/* Buttons */
+
+.btn,
+.btn--psm {
+    background-color: #009cac;
+    color: #f1eee8;
+    border: 1px solid transparent;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0;
+}
+    .btn:hover,
+    .btn--psm:hover {
+        background-color: #009cac;
+        color: #f1eee8;
+    }
+
+/* Nav Styles */
+
+.navbar-brand {
+    padding: 0px;
+}
+.navbar-brand>img {
+    height: 100%;
+    padding: 20px;
+    width: auto;
+}
+
+.navbar.navbar--psm {
+    margin-bottom: 0;
+}
+.navbar--psm .navbar-brand {
+    height: 120px;
+}
+
+.navbar--psm .nav >li >a {
+    line-height: 20px;
+    padding: 10px;
+    margin: 20px;
+}
+    @media (min-width: 768px) {
+        .navbar--psm .nav >li >a {
+            margin: 40px 0;
+        }
+    }
+
+.navbar-inverse.navbar--psm .navbar-nav>li>a {
+    color: #201d1e;
+}
+    .navbar-inverse.navbar--psm .navbar-nav>li>a:hover {
+        color: #f1eee8;
+    }
+
+.nav-container .navbar-toggle {
+    padding: 10px;
+    margin: 25px 15px 25px 0;
+}
+
+.navbar-toggle {
+    margin-top: 40px;
+}
+
+/* Jumbotronny Thing*/
+
+.jumbotron--psm {
+    background: url('../images/psm-working.jpg') no-repeat center transparent;
+    background-size: cover;
+}
+    @media screen and (min-width: 768px) {
+        .jumbotron--psm {
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
+    }
+
+.jumbotron .jumbotron--psm__headline {
+    line-height: .9em;
+    font-weight: 600;
+    color: #f1eee8;
+    letter-spacing: 1px;
+}
+
+/* Modules */
+
+.callout {
+    padding: 20px;
+    background-color: #dfdeca;
+    color: #f1eee8;
+    min-height: 320px;
+    margin-bottom: 15px;
+}
+    .services {
+        background: #eb522c;
+    }
+    .contact {
+        background: #eb522c;
+    }
+    .location {
+        background: #eb522c;
+    }
+
+.callout ul li {
+    padding: .4em 0;
+}
+
+.callout a {
+    color: #fff;
+    text-decoration: underline;
+}
+    .callout a:hover {
+        color: #dfdeca;
+    }
+
+.callout__title {
+    margin-top: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.callout__label {
+    text-transform: uppercase;
+}
+
+/* google map */
+
+.gm-style-iw {
+    color: #000;
+}
+
+
+
+
+
+
+/* Utilities */
